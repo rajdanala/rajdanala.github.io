@@ -2,7 +2,7 @@ language: ruby
 rvm:
 - 2.2
 
-bsudo: required
+sudo: required
 
 script:
  - chmod +x ./script/cibuild
