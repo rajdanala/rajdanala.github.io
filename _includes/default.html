@@ -44,17 +44,13 @@
 				<span class="icon-bar"></span>
 			</button>
 			{% if site.author.github %}
-			<a type="button" class="navbar-toggle nav-link" href="http://github.com/{{ site.author.github }}">
+			<a type="button" class="navbar-toggle nav-link visible-xs visible-sm" href="http://github.com/{{ site.author.github }}">
 				<i class="fa fa-github"></i>
 			</a>
 			{% endif %}
-			{% if site.author.twitter %}
-			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/{{ site.author.twitter }}">
-				<i class="fa fa-twitter"></i>
-			</a>
-			{% endif %}
+			
 			{% if site.author.email %}
-			<a type="button" class="navbar-toggle nav-link" href="mailto:{{ site.author.email }}">
+			<a type="button" class="navbar-toggle nav-link visible-xs visible-sm" href="mailto:{{ site.author.email }}">
 				<i class="fa fa-envelope"></i>
 			</a>
 			{% endif %}
@@ -88,11 +84,35 @@
 		</ul>
 	</div>
 
-	<div class="col-sm-3 sidebar hidden-xs">
+	<div class="col-sm-4 sidebar hidden-xs hidden-sm not-mobiles">
 		{% include sidebar.html %}
+		<div class="not-mobile row sidebar-extras">
+            <table class="col-centered">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.rajdanala.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                        <td>
+                            <div data-type="ad" data-publisher="lqm.rajdanala.site" data-zone="ron" data-format="160x600"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.rajdanala.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div data-type="ad" data-publisher="lqm.rajdanala.site" data-zone="ron" data-format="300x250"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 	</div>
 
-	<div class="col-sm-9 col-sm-offset-3">
+	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 		{{ content }}
 
 		<footer>
