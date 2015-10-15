@@ -8,15 +8,15 @@ highlighter: pygments
 # kramdon:
 #   input: GFM
 disqus: rajdanala
-title: RajDanala
-google_analytics: 
+title: Raj Danala
+google_analytics:
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: RajDanala
+      title: Raj Danala
 
 description: Raj Danala
 author:
@@ -24,21 +24,21 @@ author:
   github: rajdanala
   linkedin: rajeshdanala
   bio: Software Engineer
-  email_md5: 758974a274e89eb4820b3578997b8389  
+  email_md5: 758974a274e89eb4820b3578997b8389
 
 permalink: /:title
 
 github_repo_url: https://github.com/rajdanala/rajdanala.github.io/
 
 rss_path: feed.xml
-rss_url: 
+rss_url:
 categories_path: categories.html
 #tags_path: tags.html
 
 BASE_PATH:
 
-# Make redcarpet behave like GitHub Flavored Markdown 
+# Make redcarpet behave like GitHub Flavored Markdown
 
 markdown: redcarpet
-redcarpet: 
+redcarpet:
   extensions: ["highlight","strikethrough","smart","autolink","tables","no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
