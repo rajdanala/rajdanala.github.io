@@ -9,7 +9,7 @@ highlighter: pygments
 #   input: GFM
 disqus: rajdanala
 title: Raj Danala
-google_analytics:
+google_analytics: UA-68876043-1
 
 defaults:
   -
