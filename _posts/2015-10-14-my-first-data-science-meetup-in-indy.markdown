@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My First Data Science Meetup in Indy"
-date: "2015-10-15"
+date: "2015-10-14"
 ---
 
 Finally I decided to attend Data Science meetup that's been meeting in Regenstrief Institute for a while.
