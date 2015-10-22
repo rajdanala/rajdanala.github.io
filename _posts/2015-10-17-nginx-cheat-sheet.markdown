@@ -19,7 +19,7 @@ $ usr/share/nginx/html/
 
 ### nginx service
 
-```shell
+```
 # restart nginx ubuntu
 $ sudo service nginx status
 $ sudo service nginx start
@@ -29,7 +29,7 @@ $ sudo service nginx restart
 
 ### Simple nginx directive to serve robots files
 
-```shell
+```
 location /robots.txt {
     return 200 "User-agent: *\nDisallow: /";
 }
