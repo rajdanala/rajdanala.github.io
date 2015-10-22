@@ -6,7 +6,7 @@ date: "2015-10-17"
 
 ### nginx config paths
 
-```shell
+```
 # server config
 $ /etc/nginx/sites-available/<server-file>
 
