@@ -39,6 +39,6 @@ BASE_PATH:
 
 # Make redcarpet behave like GitHub Flavored Markdown
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["highlight","strikethrough","smart","autolink","tables","no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+markdown: kramdown
+#redcarpet:
+#  extensions: ["highlight","strikethrough","smart","autolink","tables","no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
